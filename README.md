@@ -4,8 +4,8 @@ Hello_World
 Cmpr 112 Java homework 2Need stucture help for this piece of code specifically semicolon adding and if i should make full a class with a construct as well.
 
 
-class Mine{
-public static void main (String[] args)
+	class Mine{
+	public static void main (String[] args)
 	{
 	int full = 1730000000;
 	Timestop timestop = new Timestop(53);
@@ -17,17 +17,17 @@ public static void main (String[] args)
 		if(timestop.returnint() == 0){System.out.println("Waddap");}
 		
 		}
-}
-}
-class Timestop{
-public static void main(String [] args){
+	}
+	}
+	class Timestop{
+	public static void main(String [] args){
 		public Timestop(int forstop){
 		int intime = forstop;
 		}void return timestop (){
 			return intime;
 		}
-}
-}
+	}	
+	}
 /* will this run */ /* where do the semicolons go /*
 /* I dont have eclipse space
 
