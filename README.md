@@ -30,21 +30,21 @@ Cmpr 112 Java homework 2Need stucture help for this piece of code specifically s
 /* will this run, posted on stack overflow i think global var iis better, and a commecnt stated why methods in side main using
 timestop class */
 
-class Periods {
-public staic void main (String [] args){
-	String twopie = ("2pie");
+	class Periods {
+	public staic void main (String [] args){
+		String twopie = ("2pie");
 
-	String full equation = ("(8sin)(7pieT)");
+		String full equation = ("(8sin)(7pieT)");
 	
-	System.out.println(returnanswer());
+		System.out.println(returnanswer());
 		
-	}void int returnanswer(){
+		}void int returnanswer(){
 		int equation = ((int)(twopie.charat(1)) ) ( (int)equation.charat(8) );
 		
 		return equation;
 		
 		}
-}
+	}
 
 
     import java.util.Scanner;
