@@ -27,8 +27,8 @@ Cmpr 112 Java homework 2Need stucture help for this piece of code specifically s
    	}
    	}
    	}
-/* will this run */ /* where do the semicolons go /*
-/* I dont have eclipse space
+/* will this run, posted on stack overflow i think global var iis better, and a commecnt stated why methods in side main using
+timestop class */
 
     import java.util.Scanner;
     class HelloWorld {
