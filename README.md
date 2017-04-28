@@ -12,12 +12,14 @@
 	class Time{
 	public static void main(String [] args)
 	int recorded = 0;
+	int timepassed = 0;
 	public time(int givemeasure){
 
 		int recorded = givemeasure;
 		while(givemeasure >1){
 		givemeasure --;
 		if(givemeasure ==0){
+		timepassed++;
 		givemeasure = recorded }}
  	void int cycle(){
 		return givemeasure;	
