@@ -4,29 +4,30 @@ Hello_World
 Cmpr 112 Java homework 2Need stucture help for this piece of code specifically semicolon adding and if i should make full a class with a construct as well.
 
 	class Main{
-	public static void main (String[] args)
+	pubilc static void main (String [] args)
 	{
-    int full = 1730000000;
-    Timestop timestop = new Timestop(53);
-    while(full > 0 ){
-        full--;
-     if(full == 1 ){
-        full = 1730000000;
-        timestop.returntimestop() -=1;} 
-     if(timestop.returntimestop() == 0){
-        System.out.println("Waddap");}  
-   	}
-	}
-	class Timestop{
-    public static void main(String [] args){
-      public Timestop(int forstop)
-        int intime = forstop;}
+		Time time = new time(1700000000);
+	
+		int timesecond = time.cycle();
+		for(int countdown = 50, timesecond > 1, countdown --){
+		System.out.println(countdown);}
+	}}
 
-      void int returntimestop (){
-        return intime;}
-   	}
-   	}
-   	}
+	class Time{
+	public static void main(String [] args)
+	int recorded = 0;
+	public time(int givemeasure){
+
+		int recorded = givemeasure;
+		while(givemeasure >1){
+		givemeasure --;
+		if(givemeasure ==0){
+		givemeasure = recorded }}
+ 	void int cycle(){
+		return givemeasure;	
+		}
+	}}
+
 /* will this run, posted on stack overflow i think global var iis better, and a commecnt stated why methods in side main using
 timestop class */
 
