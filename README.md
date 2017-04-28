@@ -2,29 +2,33 @@
 	class Main{
 	pubilc static void main (String [] args)
 	{
-		Time time = new time(1700000000);
+	int countdown = 50;
+	Time time = new time(1700000000);
 	
-		int timesecond = time.cycle();
-		for(int countdown = 50, timesecond > 1, countdown --){
-		System.out.println(countdown);}
+	int timesecond = time.cycle();
+	
+	if(timesecond == countdown){
+	System.out.println("Cycle finished");}
 	}}
 
-	class Time{
+	class Time{	
 	public static void main(String [] args)
 	int recorded = 0;
-	int timepassed = 0;
+	int timepassed = 0
 	public time(int givemeasure){
-
+	
+		
 		int recorded = givemeasure;
 		while(givemeasure >1){
 		givemeasure --;
-		if(givemeasure ==0){
-		timepassed++;
+		if(givemeasure == 0){
+		timepassed ++;
 		givemeasure = recorded }}
  	void int cycle(){
-		return givemeasure;	
-		}
+	return timepassed;	
+	}
 	}}
+
 /* different program */
 
 	class Periods {
