@@ -36,8 +36,8 @@ timestop class */
 		String twopie = ("2pie");
 
 		String full equation = ("(8sin)(7pieT)");
-	
-		System.out.println(returnanswer());
+		int answered = returnanswer();
+		System.out.println(answered);
 		
 		}void int returnanswer(){
 		int equation = ((int)(twopie.charat(1)) ) ( (int)equation.charat(8) );
