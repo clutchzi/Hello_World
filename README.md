@@ -1,7 +1,3 @@
-Hello_World
-===========
-
-Cmpr 112 Java homework 2Need stucture help for this piece of code specifically semicolon adding and if i should make full a class with a construct as well.
 
 	class Main{
 	pubilc static void main (String [] args)
@@ -27,9 +23,7 @@ Cmpr 112 Java homework 2Need stucture help for this piece of code specifically s
 		return givemeasure;	
 		}
 	}}
-
-/* will this run, posted on stack overflow i think global var iis better, and a commecnt stated why methods in side main using
-timestop class */
+/* different program */
 
 	class Periods {
 	public staic void main (String [] args){
